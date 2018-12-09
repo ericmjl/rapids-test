@@ -1,0 +1,16 @@
+name: rapids-test
+
+channels:
+- nvidia
+- rapidsai
+- numba
+- conda-forge
+- defaults
+
+dependencies:
+- python=3.6
+- cudf=0.4.0
+- ipython
+- scipy
+- numpy
+- scikit-learn
